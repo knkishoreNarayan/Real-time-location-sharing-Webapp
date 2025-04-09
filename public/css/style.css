@@ -1,0 +1,86 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+}
+#map{
+    width: 100%;
+    height: 100%;
+}
+
+
+html
+,body{
+    width: 100%;
+    height:100%;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #map {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #map {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  /* Floating form style */
+  .form-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 350px; /* Increased width */
+    background-color: white;
+    padding: 25px; /* More padding */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+  }
+  
+  .form-container h3 {
+    margin-bottom: 20px;
+    font-size: 20px; /* Slightly larger heading */
+  }
+  
+  .form-container label {
+    font-weight: bold;
+    margin-top: 12px;
+    display: block;
+    font-size: 16px;
+  }
+  
+  .form-container select,
+  .form-container input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 17px; /* Increased input font */
+  }
+  
+  .form-container button {
+    padding: 12px;
+    font-size: 17px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
